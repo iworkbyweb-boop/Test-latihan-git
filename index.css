@@ -1,0 +1,17 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box {
+  padding: 1rem;
+  background-color: #458a89;
+  color: #e3f2f1;
+}
+
+.box p {
+  opacity: 0.7;
+  letter-spacing: 1px;
+}
