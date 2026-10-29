@@ -1,14 +1,26 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+:root {
+  --primary-color: #458a89;
+  --secondary-color: #22504c;
+  --accent-color: #e3f2f1;
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
 .box {
   padding: 1rem;
-  background-color: #458a89;
-  color: #e3f2f1;
+  background-color: var(--primary-color);
+  color: var(--accent-color);
 }
 
 .box p {
