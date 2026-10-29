@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #458a89;
+  --secondary-color: #22504c;
+  --accent-color: #e3f2f1;
+}
+
 *,
 *::before,
 *::after {
@@ -5,12 +11,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-:root {
-  --primary-color: #458a89;
-  --secondary-color: #22504c;
-  --accent-color: #e3f2f1;
+  color: var(--accent-color);
 }
 
 body {
@@ -20,10 +21,13 @@ body {
 .box {
   padding: 1rem;
   background-color: var(--primary-color);
-  color: var(--accent-color);
 }
 
 .box p {
   opacity: 0.7;
   letter-spacing: 1px;
+}
+
+.konten {
+  padding: 1rem;
 }
